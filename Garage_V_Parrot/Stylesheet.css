@@ -1,0 +1,472 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+h1, h2, h3, .button1 {
+    font-family: 'catamaran', serif;
+}
+p, label, .carroserie, .services-details {
+    font-family: 'Yrsa', serif;
+}
+
+
+.button1 {
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+}
+@media screen and (max-width: 640px) {
+  
+    /* PAGE D'ACCUEIL*/
+    nav {
+        margin: auto;
+    }
+    .header-photo1 {
+        max-width: 100%;
+        height: auto;
+    }
+    .main-section {
+        text-align: center;
+    }
+    .main-title {
+        margin-top: -100px;
+        color: white;
+        text-align: center;
+    }
+    .subtitle-1 {
+        margin-top: 100px;
+        text-align: center;
+        color: red;
+    }
+    .text-title {
+        color: red;
+        text-align: center;
+    }
+    
+    
+   .text-description, .paragraphe1 {
+    text-align: justify;
+    padding: 20px;
+   }
+
+    /*CAROUSEL TÉMOIGNAGES*/
+
+  .carousel-item {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    
+  }
+  .text-testimonial, .name-testimonial {
+    color: white;
+   margin-top: 60px;
+  }
+  
+
+    /* FORMULAIRE DE CONTACT*/
+
+    .form-title {
+        color: red;
+    }
+
+    /* PAGE VOITURES D'OCCASION*/
+
+    .photo-voiture {
+        height: 300px;
+        width: 250px;
+    }
+   #annonces {
+    list-style-type: none;
+    margin-top: 80px;
+    text-align: center;
+   }
+    .title-occasions {
+        text-align: center;
+        color: red;
+        margin-top: 50px;
+    }
+   
+    .subtitle-occasions {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .title-vehicles-nb {
+        float: left;
+        margin-bottom: 60px;
+    }
+   
+    .box-car {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .photo-voiture {
+        height: 150px;
+        width: 200px;
+    }
+    .link-infos {
+        text-decoration: none;
+        color: red;
+    }
+    #filters {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .filter {
+        flex: 1;
+      }
+      
+input[type=range]::-webkit-slider-runnable-track {
+    background: white;  
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    
+  }
+  
+  input[type=range]::-moz-range-track {
+    background: red; 
+    height: 10px;
+    
+  }
+  
+ 
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 10px; 
+    height: 5px;
+    background: #FF0000; 
+    border-radius: 50%; 
+  }
+  
+  input[type=range]::-moz-range-thumb {
+    width: 20px;  
+    height: 20px;  
+    background: #FF0000;  
+    border-radius: 50%;  
+  }
+  
+      
+     
+
+    /* PAGE CARROSSERIE*/
+    .title-carrosserie {
+        text-align: center;
+        margin-top: 50px;
+        color: red;
+    }
+    .intro-text {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .box-carrosserie {
+        margin-top: 30px;
+    }
+    .text-box-carrosserie {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .list-carrosserie {
+        margin-left: 80px;
+    }
+    .photo-carrosserie {
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+    }
+    .photo-1, .photo-2, .photo-3 {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .box-carrosserie {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .box-contacter {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* PAGE MÉCANIQUE ET ENTRETIEN */
+    .title-mecanique-entretien {
+        margin-top: 50px;
+        color: red;
+    }
+    .text-subtitle-mecanic {
+        text-align: justify;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .box-services {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .general-prestation {
+        float: left;
+        margin-right: 10px;
+    }
+    .title-service {
+        color: red;
+    }
+    .text-service {
+        max-width: 450px;
+    }
+    .services-list {
+        list-style: none;
+    }
+    .services-details {
+        margin-left: 40px;
+    }
+
+    /* PAGE CONTACT*/
+    .info-contact {
+        margin-top: 50px;
+        text-align: center;
+        
+    }
+    .title-contact-page {
+        color: red;
+        text-align: center;
+    }
+    .name-contact-page {
+        color: red;
+        text-align: center;
+    }
+    .address {
+        text-align: center;
+    }
+    
+    /* FOOTER*/
+    
+    footer {
+        background-color: black;
+        height: 150px;
+        max-width: 100%;
+    }
+    .adresse-garage, .title-contact {
+        color: white;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (min-width: 641px) {
+
+    .a.nav-link {
+        color: black;
+    }
+   
+   ul {
+    margin: auto;
+   }
+    /* PAGE D'ACCUEIL*/
+
+    .main-section {
+        text-align: center;
+        margin-bottom: 120px;
+    }
+    .main-title {
+    
+        margin-top: -350px;
+        color: white;
+        font-size: 100px;
+    }
+    .subtitle-1 {
+        margin-top: 350px;
+        color: red;
+    }
+    .paragraphe1 {
+        max-width: 600px;
+        margin: auto;
+        text-align: justify;
+    }
+    .text-title {
+        color: red;
+    }
+    .reason1, .reason2, .reason3 {
+        margin: 80px 80px;
+    }
+    .adresse-garage, .title-contact {
+        text-align: center;
+        font-size: 20px;
+    }
+    .text-description {
+        max-width: 400px;
+        margin: 0 auto;
+        
+    }
+    
+
+  /*CAROUSEL TÉMOIGNAGES*/
+
+  .carousel-item {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 70px;
+  }
+  .text-testimonial, .name-testimonial {
+    color: white;
+   margin-top: 60px;
+  }
+
+  /*FORMULAIRE */
+
+  div.container {
+    height: 600px;
+  }
+
+    /*PAGE VOITURES D'OCCASION*/
+
+    .title-occasions {
+        margin-top: 70px;
+        color: red;
+        text-align: center;
+    }
+    .subtitle-occasions {
+        text-align: center;
+        margin: 40px 90px;
+    }
+    .title-vehicles-nb {
+        float: left;
+        margin-left: 50px;
+    }
+    .label-tri {
+        margin-left: 700px;
+    }
+   
+    .photo-voiture {
+        height: 300px;
+        width: 450px;
+    }
+    #filters {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .filter {
+        flex: 1;
+      }
+
+   
+  #annonces {
+    margin-top: 80px;
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 300px 300px;
+    grid-gap: 40px;
+    justify-content: space-around;
+    
+  }
+
+  /* PAGE CARROSSERIE*/
+
+  .title-carrosserie {
+    color: red;
+    text-align: center;
+    margin: 50px 40px;
+  }
+ 
+ .main-section-carrosserie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+    
+ }
+ .photo-carrosserie {
+    height: 330px;
+    width: 435px;
+ }
+ .text-box-carrosserie {
+    max-width: 500px;
+    text-align: justify;
+ }
+ .text-box-carrosserie, .photo-1, .photo-2, .photo-3 {
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .box-contacter {
+    text-align: center;
+    margin-top: 60px;
+ }
+
+ /* PAGE MÉCANIQUE & ENTRETIEN*/
+
+ .title-mecanique-entretien {
+    color: red;
+    margin: 50px 30px;
+ }
+ .text-subtitle-mecanic {
+    max-width: 600px;
+    text-align: justify;
+    margin: auto;
+
+ }
+ 
+ .box-services {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-items: center;
+    
+ }
+.title-service {
+    color: red;
+}
+
+ .services-details {
+    list-style: none;
+ }
+
+ /* PAGE CONTACT*/
+
+ .map-address, .info-contact, .garage-address {
+    text-align: center;
+    margin-top: 60px;
+    
+ }
+ .title-contact-page, .name-contact-page {
+    color: red;
+ }
+ .text-pagecontact {
+    text-align: center;
+ }
+
+  /* FOOTER*/
+    
+  footer {
+        background-color: black;
+        height: 350px;
+        max-width: 100%;
+        margin-top: 50px;
+        padding-top: 90px;
+        
+    
+}
+.footer-page {
+    margin-bottom: -200px;
+}
+.adresse-garage, .title-contact {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* FORMULAIRE */
+.form-title {
+    color: red;
+    text-align: center;
+}
+.button-1 {
+    margin-bottom: 80px;
+}
+ 
+}
